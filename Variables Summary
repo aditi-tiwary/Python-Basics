@@ -1,0 +1,23 @@
+
+
+# Currency
+
+pesos = int(input('What do you have left in pesos? '))
+soles = int(input('What do you have left in soles? '))
+reais = int(input('What do you have left in reais? '))
+
+total = pesos * 0.00025 + soles * 0.28 + reais * 0.21
+
+print(total)
+
+Col_to_USD = 0.00027
+Sol_to_USD = 0.30
+Reais_to_USD = 0.19
+
+Pesos = int(input("What do you have left in the pesos?"))
+Soles = int(input("What do you have left in the soles?"))
+Reais = int(input("What do you have left in the reais?"))
+
+USD_total = (Pesos * Col_to_USD) + (Soles * Sol_to_USD) + (Reais * Reais_to_USD)
+
+print(USD_total)
