@@ -1,15 +1,14 @@
+# Data types: int, float, str, bool.
+# Arithmetic operators: +, -, *, /.
+# The % modulo finds the remainder.
+# The ** exponentiation finds the exponent.
+# The input() function is used to get user input.
+# The int() function converts a value into an integer number.
 
+# Putting it all together now!
 
-# Currency
-
-pesos = int(input('What do you have left in pesos? '))
-soles = int(input('What do you have left in soles? '))
-reais = int(input('What do you have left in reais? '))
-
-total = pesos * 0.00025 + soles * 0.28 + reais * 0.21
-
-print(total)
-
+# Currency example
+# Exchange rate value
 Col_to_USD = 0.00027
 Sol_to_USD = 0.30
 Reais_to_USD = 0.19
@@ -21,3 +20,4 @@ Reais = int(input("What do you have left in the reais?"))
 USD_total = (Pesos * Col_to_USD) + (Soles * Sol_to_USD) + (Reais * Reais_to_USD)
 
 print(USD_total)
+
